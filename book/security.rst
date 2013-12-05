@@ -138,6 +138,11 @@ authentication (i.e. the old-school username/password box):
     have a separate security file, you can put the configuration directly
     into your main config file (e.g. ``app/config/config.yml``).
 
+.. tip::    
+
+    If you have a seperate security.yml file make sure it is imported inside 
+    your config.yml file.
+
 The end result of this configuration is a fully-functional security system
 that looks like the following:
 
